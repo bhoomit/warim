@@ -1,6 +1,6 @@
 import os
 from Service import InfoProvider
-import urllib, json, traceback, lxml
+import urllib, json, traceback
 from functools import wraps
 from flask import Flask, redirect, request, current_app, jsonify
 
