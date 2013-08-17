@@ -18,6 +18,10 @@ def support_jsonp(f):
             return f(*args, **kwargs)
     return decorated_function
 
+
+# Params: q: query, t: type should bw one of allowedTypes key in Service.py
+# Example Link: http://warim2.herokuapp.com/eqSearch?t=math&q=1+1
+
 @app.route('/eqSearch', methods=['GET','POST'])
 @support_jsonp
 def hello():
