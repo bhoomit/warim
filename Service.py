@@ -9,7 +9,7 @@ class InfoProvider:
 	def searchWolfram(self, q, t):
 	
 		server = 'http://api.wolframalpha.com/v2/query'
-		appid = 'WJ7EUR-77XE8GLY3V'
+		appid = 'XXXXX-XXXXXXXXXX' #Wolfram alpha app-id
 		
 		#allowedTypes = ['', 'Math', 'Percent' ,'FamousMathProblems' ,'theorem', 'Formula', 'MathWorld', 'NamedConstant', 'Character', 'MathWorldClass', 'MathematicalFunctionIdentity']
 		allowedTypes = { 'test' : ['','Math'],
