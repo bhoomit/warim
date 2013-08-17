@@ -11,7 +11,6 @@ class InfoProvider:
 		server = 'http://api.wolframalpha.com/v2/query'
 		appid = 'XXXXX-XXXXXXXXXX' #Wolfram alpha app-id
 		
-		#allowedTypes = ['', 'Math', 'Percent' ,'FamousMathProblems' ,'theorem', 'Formula', 'MathWorld', 'NamedConstant', 'Character', 'MathWorldClass', 'MathematicalFunctionIdentity']
 		allowedTypes = { 'test' : ['','Math'],
 						'math':['','Math','Percent'], 
 						'numbers':['','Math','NumberTypeQ','ConvertBase'] ,
