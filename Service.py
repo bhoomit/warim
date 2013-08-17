@@ -1,3 +1,6 @@
+# Inspired by wapex3.py in http://products.wolframalpha.com/docs/Python_Binding_1_1.zip written by derik66@gmail.com
+# New feature : Introduced allowed types to distinguish between pod types (for diffrent applications e.g geomatry, trigonomatry, etc.
+
 import wap
 from array import array
 
